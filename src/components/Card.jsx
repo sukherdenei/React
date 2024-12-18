@@ -1,5 +1,5 @@
+// Components //
 const Card = (props) => {
-  console.log({ props });
   return (
     <div className="Cards">
       <img src={props.image} alt="" />

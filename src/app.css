@@ -3,33 +3,13 @@
   padding: 0;
   margin: 0;
 }
-/* .Cards {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  margin-top: 20px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-.Card {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 60px;
-  max-width: 1200px;
-  margin: auto;
-  gap: 5px;
-}
-.header {
-  width: 100%;
-  height: 60px;
-  background-color: blue;
-} */
+
 .Cards {
-  width: 778px;
+  width: 1180px;
   height: 200px;
   /* background-color: blue; */
   display: flex;
+  margin: auto;
 }
 
 .Cards img {
@@ -44,4 +24,107 @@
   /* display: flex; */
   gap: 20px;
   padding: 20px;
+}
+body {
+  width: 100%;
+  height: auto;
+}
+.header-container {
+  width: 100%;
+  height: 65px;
+  padding: 0px 28px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 12px 16px -2px rgba(0, 0, 0, 0.052);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header-left {
+  display: flex;
+  gap: 50px;
+}
+.icon-border {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f8fc;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.HeaderNavContent {
+  display: flex;
+}
+.header-button {
+  width: 124.8px;
+  height: 37px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerImg {
+  width: 1280px;
+  height: 134px;
+  margin: auto;
+  margin-top: 20px;
+}
+.bannerImg img {
+  width: 1180px;
+  height: 135px;
+  /* background-color: blue; */
+}
+.breakingItem {
+  display: flex;
+  gap: 10px;
+  width: 1280px;
+  height: 42px;
+  margin: auto;
+  background-color: rgb(245, 248, 255);
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.breakingItem p {
+  color: black;
+  background-color: yellow;
+  width: 85.71px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperRight img {
+  width: 778px;
+  height: 517px;
+}
+.wrapperRight {
+  display: flex;
+  width: 1280px;
+  height: 549px;
+  margin: auto;
+  gap: 20px;
+}
+.wrapperRightD img {
+  width: 378px;
+  height: 200px;
+}
+.WrapperTexts {
+  width: 378px;
+  height: 118px;
+  background-color: rgb(90, 46, 192);
 }

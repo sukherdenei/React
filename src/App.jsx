@@ -38,6 +38,10 @@
 
 import "./app.css";
 import Card from "./components/Card";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import BreakingNews from "./components/Breakingnews";
+import WrapperD from "./components/Wrapper";
 
 const news = [
   {
@@ -66,7 +70,11 @@ const news = [
 const App = () => {
   return (
     <div className="container">
-      {/* <Header /> */}
+      <Header />
+      <Banner />
+      <BreakingNews />
+      <WrapperD />
+      {/* <HeroSection /> */}
       {news.map((medee) => {
         return (
           <Card
