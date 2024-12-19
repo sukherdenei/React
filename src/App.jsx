@@ -42,30 +42,31 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import BreakingNews from "./components/Breakingnews";
 import WrapperD from "./components/Wrapper";
+import Cards from "./components/Cards";
 
-const news = [
-  {
-    title: "Казакстаны хөгжлийн нууц",
-    content:
-      "Товчоор бол уг хороо Үндэсний баялгийн сангийн Хуримтлалын сангаар дамжуулан иргэдийг орон сууцжуулах зорилтыг бодит болгох үүрэг хүлээсэн. ",
-    imageSrc:
-      "https://dash-api.yld.mn/api/image/58348918-6f3f-48bb-a049-8e8b2f71237e",
-  },
-  {
-    title: "Казакстаны хөгжлийн нууц",
-    content:
-      "Хаа нэгтээ “Монгол ардчилсан замаар алхсан гучхан жилийн түүхтэй, дөнгөж төлөвших зам дээрээ яваа” ",
-    imageSrc:
-      "https://dash-api.yld.mn/api/image/2d83d835-062d-4a85-a4c0-c7b3887f278d",
-  },
-  {
-    title: "Казакстаны хөгжлийн нууц",
-    content:
-      "Ариг банкны зарласан ₮100 саяын эзэн болох хадгаламжийн урамшуулалт аяны супер азтан тодроход 1 сар хүрэхгүй хугацаа үлдлээ.     ",
-    imageSrc:
-      "https://dash-api.yld.mn/api/image/c00b3bc3-2340-49f4-84d3-a274bd10893f",
-  },
-];
+// const news = [
+//   {
+//     title: "Казакстаны хөгжлийн нууц",
+//     content:
+//       "Товчоор бол уг хороо Үндэсний баялгийн сангийн Хуримтлалын сангаар дамжуулан иргэдийг орон сууцжуулах зорилтыг бодит болгох үүрэг хүлээсэн. ",
+//     imageSrc:
+//       "https://dash-api.yld.mn/api/image/58348918-6f3f-48bb-a049-8e8b2f71237e",
+//   },
+//   {
+//     title: "Казакстаны хөгжлийн нууц",
+//     content:
+//       "Хаа нэгтээ “Монгол ардчилсан замаар алхсан гучхан жилийн түүхтэй, дөнгөж төлөвших зам дээрээ яваа” ",
+//     imageSrc:
+//       "https://dash-api.yld.mn/api/image/2d83d835-062d-4a85-a4c0-c7b3887f278d",
+//   },
+//   {
+//     title: "Казакстаны хөгжлийн нууц",
+//     content:
+//       "Ариг банкны зарласан ₮100 саяын эзэн болох хадгаламжийн урамшуулалт аяны супер азтан тодроход 1 сар хүрэхгүй хугацаа үлдлээ.     ",
+//     imageSrc:
+//       "https://dash-api.yld.mn/api/image/c00b3bc3-2340-49f4-84d3-a274bd10893f",
+//   },
+// ];
 
 const App = () => {
   return (
@@ -74,8 +75,9 @@ const App = () => {
       <Banner />
       <BreakingNews />
       <WrapperD />
-      {/* <HeroSection /> */}
-      {news.map((medee) => {
+      {/* <Card /> */}
+      <Cards />
+      {/* {news.map((medee) => {
         return (
           <Card
             title={medee.title}
@@ -83,7 +85,7 @@ const App = () => {
             image={medee.imageSrc}
           />
         );
-      })}
+      })} */}
     </div>
   );
 };

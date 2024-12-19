@@ -6,11 +6,6 @@ const WrapperImg = () => {
     />
   );
 };
-const WrapperTexts = [
-  "Зах зээл",
-  "Өмнөд Солонгосын агаарын тээврийн 2 акул нэгдлээ",
-  "М.Хулан / 12 сарын 18, 2024",
-];
 
 const WrapperD = () => {
   return (
@@ -21,10 +16,17 @@ const WrapperD = () => {
           src="https://dash-api.yld.mn/api/image/f64012ed-9f61-469c-934e-593a79b152d2"
           alt=""
         />
-        {WrapperTexts.map((a) => {
-          return [WrapperTexts];
-        })}
-        {/* <div className="wrapperTexts">"xxx", "xxx", "xxx",</div> */}
+        <div className="airplaneTexts">
+          <p>Зах зээл</p>
+          <p>Өмнөд Солонгосын агаарын тээврийн 2 акул нэгдлээ</p>
+          <p>М.Хулан / 12 сарын 18, 2024</p>
+          <p>Бизнес</p>
+          <h5>Монложистикс групп экспортын тээвэрлэлтээ нэмэгдүүлнэ</h5>
+          <p>С.Агирмаа / 12 сарын 18, 2024</p>
+          <p>ЗАХ ЗЭЭЛ</p>
+          <h5>Өмнөд Солонгосын агаарын тээврийн 2 акул нэгдлээ</h5>
+          <p>М.Хулан / 12 сарын 18, 2024</p>
+        </div>
       </div>
     </div>
   );

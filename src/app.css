@@ -5,7 +5,7 @@
 }
 
 .Cards {
-  width: 1180px;
+  width: 778px;
   height: 200px;
   /* background-color: blue; */
   display: flex;
@@ -114,17 +114,29 @@ body {
 }
 .wrapperRight {
   display: flex;
-  width: 1280px;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  max-width: 1280px;
   height: 549px;
   margin: auto;
   gap: 20px;
+
+  /* background-color: dimgray; */
 }
 .wrapperRightD img {
   width: 378px;
   height: 200px;
 }
-.WrapperTexts {
+.wrapperTexts {
   width: 378px;
   height: 118px;
   background-color: rgb(90, 46, 192);
+}
+.airplaneTexts {
+  width: 378px;
+  height: 118px;
+}
+
+.cards-parent {
+  display: flex;
 }
