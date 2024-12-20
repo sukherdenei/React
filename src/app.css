@@ -83,7 +83,7 @@ body {
   margin-top: 20px;
 }
 .bannerImg img {
-  width: 1180px;
+  width: 100%;
   height: 135px;
   /* background-color: blue; */
 }
@@ -120,6 +120,7 @@ body {
   height: 549px;
   margin: auto;
   gap: 20px;
+  justify-content: space-between;
 
   /* background-color: dimgray; */
 }
@@ -141,11 +142,26 @@ body {
   display: flex;
   margin: auto;
   max-width: 1280px;
+  height: 1000px;
   gap: 20px;
+  background-color: blue;
+  position: relative;
+  justify-content: space-around;
+  /* object-fit: contain; */
 }
-.cards-right img {
+.cards-right {
+  position: sticky;
+  height: 680px;
+  top: 65px;
+  margin-top: 10px;
+}
+.cards-rigth-top img {
   width: 380px;
   height: 265px;
+}
+.cards-rigth-bottom img {
+  width: 380px;
+  height: 400px;
 }
 .br {
   display: flex;
@@ -222,4 +238,26 @@ body {
   max-width: 1180px;
   margin: auto;
   color: #ededed;
+}
+.middle-th-scroll {
+  width: 1280px;
+  height: 535px;
+  background-color: blue;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.middle-two img {
+  height: 410px;
+  width: 380px;
+}
+.middle-th-img img {
+  width: 380px;
+  height: 135px;
+}
+.middle-th-text {
+  /* background-color: dimgray; */
+  height: 351px;
+  padding: 20px;
 }

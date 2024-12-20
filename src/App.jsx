@@ -48,6 +48,7 @@ import Three from "./components/Threecards";
 import BrT from "./Brtwo";
 import Posts from "./Post";
 import Footers from "./components/Footer";
+import MiddleScroll from "./components/Middlethrescroll";
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
       <Header />
       <Banner />
       <BreakingNews />
+      <MiddleScroll />
       <WrapperD />
       {/* <Card /> */}
       <Cards />

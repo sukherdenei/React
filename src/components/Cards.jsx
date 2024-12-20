@@ -29,6 +29,13 @@ const news = [
     imageSrc:
       "https://dash-api.yld.mn/api/image/466e9012-492b-43c9-9449-aa118031efa9",
   },
+  {
+    title: "Казакстаны хөгжлийн нууц",
+    content:
+      "Гадаад өр өнгөрсөн жилийн мөн үеэс 7.2% өсөж $35.6 тэрбумд хүрээдэх лээ. Өр л нэмэгдээд байх юм гаднаас орж ирж байгаа хөрөнгө оруулалт яав, ийв?     ",
+    imageSrc:
+      "https://dash-api.yld.mn/api/image/6bdb8f4f-f124-421c-995b-863f69858179",
+  },
 ];
 
 const Cards = () => {
@@ -46,14 +53,20 @@ const Cards = () => {
         })}
       </div>
       <div className="cards-right">
-        <img
-          src="https://cdn.boost.mn/66d672fbb1eb1b3f1bdc87e1/creative/757aa5b9-0e51-440e-96c4-a159059bc841.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=prod-boost-sa%40aqueous-cabinet-374702.iam.gserviceaccount.com%2F20241219%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241219T010907Z&X-Goog-Expires=86399&X-Goog-Signature=81b537c86496ebb0290ab2e5695ba21257b2dc2c2ebb7c7621f435c0c7e24082ebefff0f7aa5ba3c4cb469c70993bd0a8a5fcc41f5cf62546381d06ef0ce39baa79a41691e2783c8a92d745b5d401020298179fce05883d342910220b64c6a5930c53c0a43f212723c7cf19f84e1856cfa19ef7d61b69c3ce28e540b2bc3b8d08c15ebad47c37fc72945fdfe4d1cf9e7ceb49fe81eda0f8debcf3a68c44e2767ff1e5d13627f0cd3718608901b89fc06ce179204debe018cbb4d40d7ea26679c56d5ac29a9b48602c748a3e91ddb577e5ad8930a06ea21a80170df3f3707509edd15360283f9cd1c1b9b3b4795a53941c763f5aebaf326f2e5eb53da89948440&X-Goog-SignedHeaders=host"
-          alt=""
-        />
-        <img
-          src="https://cdn.boost.mn/66d672fbb1eb1b3f1bdc87e1/creative/4393e679-2224-4da3-967f-1dfe64500f90.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=prod-boost-sa%40aqueous-cabinet-374702.iam.gserviceaccount.com%2F20241219%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241219T010907Z&X-Goog-Expires=86399&X-Goog-Signature=0742abb1e99d2cc4caedf7c8fa01d16b58dabe4e13eff85c2a40acae4deeef81c776fafb55f6df6b6c0975a461bab7111461e69bcd58caa798c32809e369a8cc6bed69c9d3a8f050bcb8b976693f3b67ee2ec747764845e9035b7f66b22c517b61e595afc76429f50ec0c92cd99d999fe7a077cb406b724ab09bf253f81584cd644d13606ccb97246f1270a3e18cee584bc52a873f2236d9580ea9da48fc422c9dfae1ea68c1a8693a17e5e46dcdea33d166aaf43bb018817e946e3cc46dca9ccd86f5c12f36313415beed0ca103f68239cbf023a0b6a5825cabcfda42bb13fce011136bd97fcad77e985ead9b645a5d9be40b3cfff23664842316ca3bd7988a&X-Goog-SignedHeaders=host"
-          alt=""
-        />
+        <div className="cards-rigth-top">
+          {" "}
+          <img
+            src="https://cdn.boost.mn/66d672fbb1eb1b3f1bdc87e1/creative/757aa5b9-0e51-440e-96c4-a159059bc841.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=prod-boost-sa%40aqueous-cabinet-374702.iam.gserviceaccount.com%2F20241219%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241219T043912Z&X-Goog-Expires=86399&X-Goog-Signature=29b0e15cfd0e7a3c799ea81c0b31086336a10ee69c8205fc8a4b4a3a91c94bbd872b2a6eeeddc454e3aebd675bfa3fe87d8dfc52b8b482dbcfcb15f7fa24b90259945de525900cf53a340630800b959ef615461ec7b36aaa40a3727913d5fd390f2902901fb04b23d8a040c910dc67e933187eedae47d3cbd3ccc1c68d14501a022b8233902afd8792f2494691cbb222d64fa682a8ca0592dda4c44bc4640c4b3860e65764a69e0d1f694a0d97c339713dc89833e33e8332521a4ef13cf73ce17b1a474cd1ab4ad8d1895847ad9716a47566afb47a4366ccdfd1cf37620f8d2cf959eec5069c6ac8ba31f70dee431f249a41077fdf33dd2ea733bf7df961a5d3&X-Goog-SignedHeaders=host"
+            alt=""
+          />
+        </div>
+        <div className="cards-rigth-bottom">
+          {" "}
+          <img
+            src="https://cdn.boost.mn/66d672fbb1eb1b3f1bdc87e1/creative/4393e679-2224-4da3-967f-1dfe64500f90.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=prod-boost-sa%40aqueous-cabinet-374702.iam.gserviceaccount.com%2F20241219%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241219T043912Z&X-Goog-Expires=86399&X-Goog-Signature=68520a68462318b1db9e0885163f224166664b373f21eb0a2f10e779f046a6ec9cb7ba076b9f7546a8e8371a894b7fe8e18c20d7a0ff6dfac3f5d3b485ddce6addc2a5ec0236ef4083a44d4563d482c474e23145cf53136839ef2b4c2e3eb3792ff889ab1bfcef119e40db66e75055e87eaeca25692efa114f92d1302001912b93a1048f501bad3be16bb839a45d632441873bdcb39639e026e621a3c60827aab61909cbad17858e8018715d01d085bde5bbb95c8771fcb643002a9ca14cd44a27dd91748e56ddc7c236d546892136c5ad1b1c6cf401ba6fecd2bd085118e50051fdc61c1679b14f2f56ef9ff2958624c09a52542242161ded886870d0a356dc&X-Goog-SignedHeaders=host"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
